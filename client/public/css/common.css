@@ -1,0 +1,85 @@
+.wol-navbar {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 4px 0 0 0;
+}
+
+.wol-navbtn a, .wol-navbtn a:hover, .wol-navbtn a:link, .wol-navbtn a:visited, .wol-navbtn a:focus, .wol-navbtn a:active {
+    text-decoration: none !important;
+    color: initial !important;
+}
+
+.wol-navbtn {
+    font-family: Dosis, "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    padding: 6px 12px 3px 6px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background-color: #eee;
+    color:#555;
+    margin:3px;
+    z-index:1000;
+    opacity:1.0;
+    cursor:pointer;
+}
+
+.wol-navbtn.active {
+    background-color:lightblue;
+}
+
+.wol-navbtn:not(.active):hover {
+    background-color: #dadada;
+}
+
+.wol-navbtn i.md-icon {
+    position:relative;
+    top:-2px;
+}
+
+.spinner-parent {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.ib {
+    display: inline-block;
+}
+
+.pl {
+    float: left;
+}
+
+.pr {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {
+    opacity: 0;
+}
+
+body {
+    margin-top:-5px;
+}

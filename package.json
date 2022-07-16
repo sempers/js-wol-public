@@ -1,0 +1,59 @@
+{
+  "name": "wvol",
+  "description": "personal diary",
+  "license": "MIT",
+  "version": "1.0.0",
+  "info": "Weeks of Life - Vue.JS version",
+  "main": "server.js",
+  "repository": "https://github.com/sempers/wvol.git",
+  "author": "groddenator@gmail.com",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "run": "node server/server.js"
+  },
+  "dependencies": {
+    "axios": "*",
+    "basic-auth": "*",
+    "body-parser": "*",
+    "buffer": "^6.0.3",
+    "consolidate": "*",
+    "cookie-parser": "*",
+    "cookie-session": "*",
+    "ejs": "*",
+    "express": "*",
+    "handlebars": "*",
+    "input": "^1.0.1",
+    "memory-cache": "*",
+    "moment": "^2.29.3",
+    "mongoose": "^5.7.0",
+    "morgan": "*",
+    "passport-yandex": "^0.0.5",
+    "request": "*",
+    "serve-favicon": "*",
+    "telegram": "*",
+    "underscore": "*",
+    "ya-disk-rest-api": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/plugin-proposal-optional-chaining": "^7.16.7",
+    "@babel/preset-env": "^7.17.10",
+    "@fast-csv/parse": "^4.3.6",
+    "babel-loader": "^8.2.5",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "vue": "2.5.17",
+    "vue-loader": "^13.0.5",
+    "vue-material": "1.0.0-beta-10.2",
+    "vue-router": "^3.1.5",
+    "vue-template-compiler": "2.5.17",
+    "vuex": "^3.1.2",
+    "webpack": "^3.12.0"
+  }
+}

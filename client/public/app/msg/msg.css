@@ -1,0 +1,15 @@
+.icon-man {
+    color: blue !important;
+}
+
+.icon-woman {
+    color:pink !important;
+}
+
+.icon-unknown {
+    color:gray !important;
+}
+
+.md-table-head-container {
+    height: 30px;
+}
